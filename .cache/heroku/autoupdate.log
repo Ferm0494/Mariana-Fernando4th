@@ -1,0 +1,26 @@
+[2020-01-17T18:57:47.930Z] starting `/usr/local/lib/heroku/bin/heroku update --autoupdate` from /usr/local/lib/heroku/bin/run version
+waiting until 2020-01-17T19:57:47.915Z to update
+waiting until 2020-01-17T19:58:26.187Z to update
+waiting until 2020-01-17T19:58:26.187Z to update
+waiting until 2020-01-17T19:59:53.387Z to update
+waiting until 2020-01-17T19:59:53.387Z to update
+waiting until 2020-01-17T19:59:53.387Z to update
+waiting until 2020-01-17T19:59:53.387Z to update
+waiting until 2020-01-17T19:59:53.387Z to update
+waiting until 2020-01-17T19:59:53.387Z to update
+waiting until 2020-01-17T19:59:53.387Z to update
+waiting until 2020-01-17T19:59:53.387Z to update
+waiting until 2020-01-17T19:59:53.387Z to update
+waiting until 2020-01-17T19:59:53.387Z to update
+waiting until 2020-01-17T19:59:53.387Z to update
+waiting until 2020-01-17T20:11:45.725Z to update
+waiting until 2020-01-17T20:12:35.498Z to update
+waiting until 2020-01-17T20:12:35.498Z to update
+waiting until 2020-01-17T20:12:35.498Z to update
+waiting until 2020-01-17T20:12:35.498Z to update
+waiting until 2020-01-17T20:12:35.498Z to update
+waiting until 2020-01-17T20:12:35.498Z to update
+time to update
+heroku: Updating CLI... already on latest version: 7.35.1
+Updating completions...
+Updating completions... done

@@ -1,0 +1,99 @@
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting XAUTHORITY=/home/atenais/.Xauthority
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting LC_MEASUREMENT=es_MX.UTF-8
+dbus-update-activation-environment: setting LC_PAPER=es_MX.UTF-8
+dbus-update-activation-environment: setting LC_MONETARY=es_MX.UTF-8
+dbus-update-activation-environment: setting LANG=en_US.UTF-8
+dbus-update-activation-environment: setting GDM_LANG=en_US
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting GTK_OVERLAY_SCROLLING=0
+dbus-update-activation-environment: setting LC_NAME=es_MX.UTF-8
+dbus-update-activation-environment: setting XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/atenais
+dbus-update-activation-environment: setting USER=atenais
+dbus-update-activation-environment: setting DESKTOP_SESSION=xubuntu
+dbus-update-activation-environment: setting QT_QPA_PLATFORMTHEME=gtk2
+dbus-update-activation-environment: setting PWD=/home/atenais
+dbus-update-activation-environment: setting HOME=/home/atenais
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+dbus-update-activation-environment: setting XDG_SESSION_DESKTOP=xubuntu
+dbus-update-activation-environment: setting LC_ADDRESS=es_MX.UTF-8
+dbus-update-activation-environment: setting LC_NUMERIC=es_MX.UTF-8
+dbus-update-activation-environment: setting CLUTTER_BACKEND=x11
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting SHLVL=1
+dbus-update-activation-environment: setting LANGUAGE=en_US
+dbus-update-activation-environment: setting LC_TELEPHONE=es_MX.UTF-8
+dbus-update-activation-environment: setting GDMSESSION=xubuntu
+dbus-update-activation-environment: setting LOGNAME=atenais
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000
+dbus-update-activation-environment: setting XAUTHORITY=/home/atenais/.Xauthority
+dbus-update-activation-environment: setting XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+dbus-update-activation-environment: setting XDG_CONFIG_DIRS=/etc/xdg/xdg-xubuntu:/etc/xdg
+dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+dbus-update-activation-environment: setting LC_IDENTIFICATION=es_MX.UTF-8
+dbus-update-activation-environment: setting LC_TIME=es_MX.UTF-8
+dbus-update-activation-environment: setting _=/usr/bin/dbus-update-activation-environment
+
+** (wrapper-2.0:1240): WARNING **: 08:51:00.575: No outputs have backlight property
+
+(polkit-gnome-authentication-agent-1:1274): GLib-CRITICAL **: 08:51:00.791: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-gnome-authentication-agent-1:1274): polkit-gnome-1-WARNING **: 08:51:00.792: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+(wrapper-2.0:1237): GLib-GIO-CRITICAL **: 08:51:00.808: g_file_new_for_path: assertion 'path != NULL' failed
+
+(wrapper-2.0:1237): GLib-GIO-CRITICAL **: 08:51:00.808: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+
+(wrapper-2.0:1237): GLib-GObject-WARNING **: 08:51:00.808: invalid (NULL) pointer instance
+
+(wrapper-2.0:1237): GLib-GObject-CRITICAL **: 08:51:00.808: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(wrapper-2.0:1237): Gtk-WARNING **: 08:51:00.808: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
+
+(wrapper-2.0:1237): Gtk-WARNING **: 08:51:00.898: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+
+(wrapper-2.0:1240): Gtk-WARNING **: 08:51:01.478: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PowerManagerButton)
+
+(nm-applet:1276): Gtk-WARNING **: 08:51:01.591: Can't set a parent on widget which has a parent
+
+(xfwm4:1182): xfwm4-WARNING **: 08:51:04.037: output size (1366x768) and logical screen size (1366x663) do not match
+
+(wrapper-2.0:1241): Gtk-WARNING **: 08:51:05.467: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PulseaudioButton)
+
+(wrapper-2.0:1214): Gtk-WARNING **: 08:51:05.520: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+/usr/lib/python3/dist-packages/blueman/plugins/applet/AppIndicator.py:8: PyGIWarning: AppIndicator3 was imported without specifying a version first. Use gi.require_version('AppIndicator3', '0.1') before import to ensure that the right version gets loaded.
+  from gi.repository import AppIndicator3 as girAppIndicator
+ERROR:dbus.proxies:Introspect error on org.bluez:/org/bluez: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+[Child 1916, MediaDecoderStateMachine #1] WARNING: Decoder=7fb684c31000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-XRoLc6/firefox-72.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3337
+[Child 1916, MediaDecoderStateMachine #1] WARNING: Decoder=7fb684c31000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-XRoLc6/firefox-72.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3337
+[Child 1916, MediaDecoderStateMachine #1] WARNING: Decoder=7fb684c31000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-XRoLc6/firefox-72.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3337
+[Child 1916, MediaDecoderStateMachine #1] WARNING: Decoder=7fb684c31000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-XRoLc6/firefox-72.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3337
+[Child 1916, MediaDecoderStateMachine #1] WARNING: Decoder=7fb684c31000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-XRoLc6/firefox-72.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3337
+[Child 1916, MediaDecoderStateMachine #1] WARNING: Decoder=7fb684c31000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-XRoLc6/firefox-72.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3337
+[Child 1916, MediaDecoderStateMachine #1] WARNING: Decoder=7fb684c31000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-XRoLc6/firefox-72.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3337
+[Child 2005, MediaDecoderStateMachine #1] WARNING: Decoder=7f831bbf2000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-XRoLc6/firefox-72.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3337
+[Child 2005, MediaDecoderStateMachine #1] WARNING: Decoder=7f831bbf2000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-XRoLc6/firefox-72.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3337
+[Child 2005, MediaDecoderStateMachine #1] WARNING: Decoder=7f831bbf2000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-XRoLc6/firefox-72.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3337
+[Child 2005, MediaDecoderStateMachine #1] WARNING: Decoder=7f831bbf2000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-XRoLc6/firefox-72.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3337
+[Child 2005, MediaDecoderStateMachine #1] WARNING: Decoder=7f831bbf2000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-XRoLc6/firefox-72.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3337
+[Child 2005, MediaDecoderStateMachine #1] WARNING: Decoder=7f831bbf2000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-XRoLc6/firefox-72.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3337
+[Child 2005, MediaDecoderStateMachine #1] WARNING: Decoder=7f831bbf2000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-XRoLc6/firefox-72.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3337
+[Child 2005, MediaDecoderStateMachine #1] WARNING: Decoder=7f831bbf2000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-XRoLc6/firefox-72.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3337
+[Child 2005, MediaDecoderStateMachine #1] WARNING: Decoder=7f831bbf2000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-XRoLc6/firefox-72.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3337
+[Child 2005, MediaDecoderStateMachine #1] WARNING: Decoder=7f831bbf2000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-XRoLc6/firefox-72.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3337
+[Child 2005, MediaDecoderStateMachine #1] WARNING: Decoder=7f831bbf2000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-XRoLc6/firefox-72.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3337
+Option 'sandbox' is unknown. Ignoring.
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+Gtk-Message: 09:35:25.414: GtkDialog mapped without a transient parent. This is discouraged.
+Gtk-Message: 09:38:48.996: GtkDialog mapped without a transient parent. This is discouraged.
